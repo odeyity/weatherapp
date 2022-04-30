@@ -1,5 +1,5 @@
 
-import cgitb cgitb.enable(start_response('200 OK', [('Content-Type', 'text/html')]))
+import cgitb
 from pyowm import OWM
 from pyowm.utils import config
 from pyowm.utils import timestamps
